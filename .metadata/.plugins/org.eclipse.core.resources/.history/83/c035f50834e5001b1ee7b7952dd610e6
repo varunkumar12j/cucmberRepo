@@ -1,0 +1,14 @@
+package stepDefinations;
+
+import io.cucumber.java.en.Given;
+
+public class stepDefination {
+//	Given User is on google search
+	@Given("^User is on google search$")
+	public void user_is_on_google_search() {
+		
+	}
+//	 When User enters data to serach
+//	 And clicks on search
+//	 Then Information relavent to search is reflected 
+}

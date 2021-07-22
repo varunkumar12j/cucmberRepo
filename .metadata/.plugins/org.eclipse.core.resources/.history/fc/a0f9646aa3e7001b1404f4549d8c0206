@@ -1,0 +1,22 @@
+package stepDefinations;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class UiSearchStepDefination {
+	 	@Given("^User is on GreenCart page$")
+	    public void user_is_on_greencart_page() throws Throwable {
+	        //throw new PendingException();
+	    }
+
+	    @When("^User search for veggie$")
+	    public void user_search_for_veggie() throws Throwable {
+	        //throw new PendingException();
+	    }
+
+	    @Then("^Result of search is displayed$")
+	    public void result_of_search_is_displayed() throws Throwable {
+	       // throw new PendingException();
+	    }
+}

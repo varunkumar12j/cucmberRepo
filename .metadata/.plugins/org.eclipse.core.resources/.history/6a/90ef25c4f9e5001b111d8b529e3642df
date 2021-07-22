@@ -1,0 +1,7 @@
+ Feature: Data search
+ 
+ Scenario: Search for infomation
+ Given User is on google search
+ When User enters "Bangalore" to serach
+ And clicks on search
+ Then Information relavent to search is reflected

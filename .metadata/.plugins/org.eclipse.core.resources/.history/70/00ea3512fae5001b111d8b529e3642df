@@ -1,0 +1,29 @@
+package stepDefinations;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class stepDefination {
+	@Given("^User is on google search$")
+    public void user_is_on_google_search() throws Throwable {
+    }
+
+    @When("^User enters data to serach$")
+    public void user_enters_data_to_serach() throws Throwable {
+    }
+
+    @Then("^Information relavent to search is reflected$")
+    public void information_relavent_to_search_is_reflected() throws Throwable {
+    }
+
+    @And("^clicks on search$")
+    public void clicks_on_search() throws Throwable {
+    }
+    
+    @When("^User enters \"([^\"]*)\" to serach$")
+    public void user_enters_something_to_serach(String strArg1) throws Throwable {
+        System.out.println(strArg1);
+    }
+}

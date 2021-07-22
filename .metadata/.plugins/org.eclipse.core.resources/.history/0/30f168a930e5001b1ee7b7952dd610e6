@@ -1,0 +1,6 @@
+ Feature: Data search
+ 
+ Scenario: Search for infomation
+ Given User is on google search
+ When User enters data to serach
+ Then Information relavent to search is reflected 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.25">
+<testcase classname="Data search" name="User log into application" time="0.084">
+<system-out><![CDATA[Given Browser object is created.............................................passed
+When Browser is launched....................................................passed
+Then Selenium is ready to be used...........................................passed
+Given User is on login page.................................................passed
+When User enters userName and password......................................passed
+And clicks on login.........................................................passed
+Then User is loged in successfully..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

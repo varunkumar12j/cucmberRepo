@@ -1,0 +1,14 @@
+ Feature: Data search
+ 
+ Scenario: Search for infomation
+ Given User is on google search
+ When User enters "Bangalore" to serach
+ And clicks on search
+ Then Information relavent to search is reflected
+ 
+ 
+ Scenario: User log into application
+ Given User is on login page
+ When User enters userName and password
+ And clicks on login
+ Then User is loged in successfully

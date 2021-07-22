@@ -1,0 +1,7 @@
+package cucumberOptions;
+
+
+//@CucumberOptions(features="src/test/java/features",glue="stepDefinations")
+//public class TestRunnerTestNg extends abstracttestngcucumb{
+//
+//}

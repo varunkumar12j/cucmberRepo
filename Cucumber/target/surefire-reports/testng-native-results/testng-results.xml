@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="519" started-at="2021-07-17T23:11:42 IST" finished-at="2021-07-17T23:11:43 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunnerTestNg@67205a84]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="519" started-at="2021-07-17T23:11:42 IST" finished-at="2021-07-17T23:11:43 IST">
+      <class name="cucumberOptions.TestRunnerTestNg">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunnerTestNg@67205a84]" name="setUpClass" is-config="true" duration-ms="294" started-at="2021-07-17T23:11:42 IST" finished-at="2021-07-17T23:11:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunnerTestNg@67205a84]" name="runScenario" duration-ms="158" started-at="2021-07-17T23:11:43 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-17T23:11:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for infomation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Data search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunnerTestNg@67205a84]" name="runScenario" duration-ms="11" started-at="2021-07-17T23:11:43 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-17T23:11:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User log into application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Data search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunnerTestNg@67205a84]" name="runScenario" duration-ms="4" started-at="2021-07-17T23:11:43 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-17T23:11:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User log into application parameterized"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Data search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunnerTestNg@67205a84]" name="runScenario" duration-ms="4" started-at="2021-07-17T23:11:43 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-17T23:11:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User log into application parameterized"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Data search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunnerTestNg@67205a84]" name="tearDownClass" is-config="true" duration-ms="13" started-at="2021-07-17T23:11:43 IST" finished-at="2021-07-17T23:11:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunnerTestNg -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

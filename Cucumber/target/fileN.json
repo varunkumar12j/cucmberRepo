@@ -1,0 +1,147 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Browser object is created",
+            "match": {
+              "location": "stepDefinations.stepDefination.browser_object_is_created()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is launched",
+            "match": {
+              "location": "stepDefinations.stepDefination.browser_is_launched()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Selenium is ready to be used",
+            "match": {
+              "location": "stepDefinations.stepDefination.selenium_is_ready_to_be_used()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-17T17:46:59.768Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.FeatureHooks.beforeMethod()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User log into application",
+        "description": "",
+        "id": "data-search;user-log-into-application",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.FeatureHooks.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on login page",
+            "match": {
+              "location": "stepDefinations.stepDefination.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters userName and password",
+            "match": {
+              "location": "stepDefinations.stepDefination.user_enters_username_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "varun",
+                  "kumar"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clicks on login",
+            "match": {
+              "location": "stepDefinations.stepDefination.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is loged in successfully",
+            "match": {
+              "location": "stepDefinations.stepDefination.user_is_loged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@webTest"
+          }
+        ]
+      }
+    ],
+    "name": "Data search",
+    "description": "",
+    "id": "data-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Search.feature",
+    "tags": []
+  }
+]
